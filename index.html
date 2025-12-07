@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beautiful Sample Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #8ec5fc 0%, #e0c3fc 100%);
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.8;
+    }
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 1.5rem;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to a Beautiful HTML Page</h1>
+    <p>Clean. Modern. Minimalist.</p>
+  </header>
+
+  <section class="card-container">
+    <div class="card">
+      <h2>Elegant Design</h2>
+      <p>This layout is crafted to be simple yet visually appealing, using soft gradients and smooth card shadows.</p>
+    </div>
+
+    <div class="card">
+      <h2>Responsive Grid</h2>
+      <p>The card grid adapts gracefully to various screen sizes, ensuring a consistent experience.</p>
+    </div>
+
+    <div class="card">
+      <h2>Easy to Customize</h2>
+      <p>You can easily tweak colors, typography, and spacing to fit your own project's style.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Beautiful Page. Crafted with ♥</p>
+  </footer>
+</body>
+</html>
